@@ -9,12 +9,13 @@ interface Props {
 }
 
 const LoadingStatusHandler = ({ isLoading, error, children }: Props) => {
-	if (error)
+	if (error) {
 		return (
 			<h1 className={styles.header}>
 				Something went wrong :( <br /> Please try again
 			</h1>
 		);
+	}
 
 	if (isLoading) return <h1 className={styles.header}>Loading...</h1>;
 
