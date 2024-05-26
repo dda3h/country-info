@@ -1,0 +1,14 @@
+.LinkButton {
+	padding: 14px 20px;
+	border: 1px solid #242424;
+	border-radius: 8px;
+
+	background-color: #0a0a0a;
+	color: #ededed;
+	user-select: none;
+	transition: background-color 0.2s ease-out;
+
+	&:hover {
+		background-color: #1f1f1f;
+	}
+}

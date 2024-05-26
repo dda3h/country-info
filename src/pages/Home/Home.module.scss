@@ -1,0 +1,25 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 200px);
+	gap: 20px;
+	justify-content: center;
+}
+
+.card {
+	text-align: center;
+	transition: scale 0.2s ease-out;
+
+	&:hover {
+		scale: 0.9;
+	}
+}
+
+.flag {
+	font-size: 100px;
+	user-select: none;
+}
+
+.name {
+	position: relative;
+	top: -10px;
+}

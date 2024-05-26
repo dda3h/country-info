@@ -1,0 +1,40 @@
+.container {
+	margin: 30px 10px;
+	text-align: center;
+}
+
+.name {
+	font-size: 40px;
+	color: #ededed;
+}
+
+.flag {
+	font-size: 300px;
+	position: relative;
+	top: -45px;
+	user-select: none;
+
+	@media (max-width: 480px) {
+		font-size: 250px;
+	}
+}
+
+.info {
+	font-size: 17px;
+	position: relative;
+	top: -85px;
+
+	p {
+		color: #fafafa;
+
+		span {
+			color: #888888;
+		}
+	}
+}
+
+.home_button {
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+}
